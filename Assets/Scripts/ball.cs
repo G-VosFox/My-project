@@ -21,6 +21,7 @@ public class ball : MonoBehaviour
     {
         xPosition += xPace * Time.deltaTime;
         yPosition += yPace * Time.deltaTime;
+
         transform.position = new Vector3(xPosition, yPosition, 0f);
     }
 }

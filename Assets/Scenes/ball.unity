@@ -247,6 +247,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xPosition: 2
   yPosition: 2
+  xPace: 1
+  yPace: 1
 --- !u!212 &1426228213
 SpriteRenderer:
   m_ObjectHideFlags: 0

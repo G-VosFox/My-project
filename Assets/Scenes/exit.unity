@@ -716,13 +716,6 @@ MonoBehaviour:
   speed: 3
   heightLimit: 3.8
   leftOrRight: left
-  newBall: 0
-  ballAmount: 1
-  ball1: {fileID: 1426228211}
-  ball2: {fileID: 1138877805}
-  ball3: {fileID: 1990766333}
-  ball4: {fileID: 1719941573}
-  ball5: {fileID: 1059123734}
 --- !u!212 &688098320
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1863,6 +1856,13 @@ MonoBehaviour:
   rightScore: 0
   winScore: 10
   leftOrRight: right
+  newBall: 1
+  ballAmount: 1
+  ball1: {fileID: 1426228211}
+  ball2: {fileID: 1138877805}
+  ball3: {fileID: 1990766333}
+  ball4: {fileID: 1719941573}
+  ball5: {fileID: 1059123734}
 --- !u!1 &1719941573
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,6 +2363,13 @@ MonoBehaviour:
   rightScore: 0
   winScore: 10
   leftOrRight: left
+  newBall: 1
+  ballAmount: 1
+  ball1: {fileID: 1426228211}
+  ball2: {fileID: 1138877805}
+  ball3: {fileID: 1990766333}
+  ball4: {fileID: 1719941573}
+  ball5: {fileID: 1059123734}
 --- !u!1 &2050204880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2442,13 +2449,6 @@ MonoBehaviour:
   speed: 3
   heightLimit: 3.8
   leftOrRight: right
-  newBall: 1
-  ballAmount: 1
-  ball1: {fileID: 1426228211}
-  ball2: {fileID: 1138877805}
-  ball3: {fileID: 1990766333}
-  ball4: {fileID: 1719941573}
-  ball5: {fileID: 1059123734}
 --- !u!212 &2050204883
 SpriteRenderer:
   m_ObjectHideFlags: 0

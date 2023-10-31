@@ -1248,7 +1248,7 @@ MonoBehaviour:
   score: {fileID: 2026256170}
   leftScore: 0
   rightScore: 0
-  winScore: 1
+  winScore: 10
   leftOrRight: right
   newBall: 0
   ballAmount: 1
@@ -1487,7 +1487,7 @@ MonoBehaviour:
   score: {fileID: 1117879090}
   leftScore: 0
   rightScore: 0
-  winScore: 1
+  winScore: 10
   leftOrRight: left
   newBall: 0
   ballAmount: 1
@@ -1640,8 +1640,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2050204884}
   - component: {fileID: 2050204883}
-  - component: {fileID: 2050204882}
   - component: {fileID: 2050204881}
+  - component: {fileID: 2050204885}
   m_Layer: 0
   m_Name: paddle (1)
   m_TagString: verticalWall
@@ -1694,21 +1694,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2050204882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2050204880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e84760fb5a7eca4f883fd981feb4810, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  heightLimit: 3.8
-  leftOrRight: right
 --- !u!212 &2050204883
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1776,6 +1761,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2050204885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050204880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94e4fac8941f36d418dcf9320e47bf82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yPosition: 0
+  yPace: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

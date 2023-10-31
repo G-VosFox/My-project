@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class button : MonoBehaviour
 {
-    public button normButton;
-    public button funkButton;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,18 +15,18 @@ public class button : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        OnGUI();
+        
     }
-    void OnGUI()
+   public void single() 
     {
-        if (normButton)
-        {
-            SceneManager.LoadScene("score");
-        }
-
-        else if (funkButton)
-        {
-            SceneManager.LoadScene("exit");
-        }
+        SceneManager.LoadScene("singlePlayer");
     }
+    public void two() 
+    { 
+        SceneManager.LoadScene("score");
+    }
+    public void funk() 
+    {
+        SceneManager.LoadScene("exit");
+    }  
 }

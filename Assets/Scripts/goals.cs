@@ -31,11 +31,11 @@ public class goals : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (leftScore >= 10)
+        if (leftScore >= winScore)
         {
             score.text = "Left wins";
         }
-        if (rightScore >= 10)
+        if (rightScore >= winScore)
         {
             score.text = "Right wins";
         }

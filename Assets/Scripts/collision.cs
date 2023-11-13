@@ -6,8 +6,8 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class collision : MonoBehaviour
 {
-    public float xPosition = 1f;
-    public float yPosition = 1f;
+    public float xPosition;
+    public float yPosition;
     public float xPace = 3f;
     public float yPace = 3f;
     public bool goal = false;
